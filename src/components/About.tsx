@@ -27,7 +27,7 @@ const About = () => {
     }
   ];
 
-  const AboutIllustration = "https://res.cloudinary.com/dl2yc7401/image/upload/v1754468722/transparent-Photoroom_qr3nq8.png";
+  const AboutIllustration = "https://res.cloudinary.com/dl2yc7401/image/upload/v1754601418/about_lgcli3.png";
 
   return (
     <section id="about" className="bg-white py-16 md:py-24 overflow-hidden">
@@ -46,7 +46,7 @@ const About = () => {
               <img 
                 src={AboutIllustration} 
                 alt="Salon Dolly Beauty" 
-                className="w-96  h-auto items-center justify-center  object-cover transform hover:scale-105 transition-transform duration-700"
+                className="w-full scale-x-[-1]  h-auto items-center justify-center  object-cover transform  transition-transform duration-700 "
               />
             </div>
           </motion.div>
