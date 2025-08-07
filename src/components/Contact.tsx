@@ -154,9 +154,6 @@ const Contact = () => {
             className="space-y-8"
           >
             <div className="bg-white rounded-3xl shadow-xl p-8 md:p-10 border border-gray-100 h-full">
-              <div className="absolute -top-4 -left-4 w-16 h-16 bg-dolly-rose/10 rounded-2xl flex items-center justify-center">
-                <MapPin className="h-8 w-8 text-dolly-rose-pure" strokeWidth={1.5} />
-              </div>
               
               <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8 pl-4">
                 Notre salon

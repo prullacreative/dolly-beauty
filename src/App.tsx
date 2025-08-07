@@ -8,12 +8,12 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 
-
+ 
 function App() {
   return (
     <div className="min-h-screen bg-dolly-white">
       <Navbar />
-      <main>
+     
         
         <Hero />
         <About />
@@ -23,7 +23,7 @@ function App() {
         <Social />
         <Contact /> 
       
-      </main>
+      
       <Footer />
     </div>
   );
