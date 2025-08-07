@@ -6,6 +6,7 @@ import HeroImage from '../images/hero/hero.png';
 import HeroImage2 from '../images/hero/hero2.png';
 import HeroImage3 from '../images/hero/hero3.png';
 
+
 const Hero = () => {
   return (
     <section 
@@ -119,9 +120,12 @@ const Hero = () => {
             <div className="absolute -top-10 -left-10 w-32 h-32 bg-dolly-gold/20 rounded-full z-0"></div>
             <div className="absolute -bottom-10 -right-10 w-24 h-24 bg-dolly-rosepur/20 rounded-full z-0"></div>
           </motion.div>
+         
         </main>
       </Container>
+      
     </section>
+    
   );
 };
 
